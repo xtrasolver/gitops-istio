@@ -11,4 +11,4 @@ spec:
     version: 0.24.0
   values:
     meshProvider: istio
-    metricsServer: http://prometheus.istio-system:9090
+    metricsServer: http://expose-prometheus-metrics.cattle-prometheus:9090
