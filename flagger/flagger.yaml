@@ -11,4 +11,5 @@ spec:
     version: 0.24.0
   values:
     meshProvider: istio
-    prometheus.install: true
+    prometheus:
+      install: true
