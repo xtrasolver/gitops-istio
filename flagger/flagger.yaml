@@ -10,6 +10,7 @@ spec:
     name: flagger
   values:
     meshProvider: istio
-    metricsServer: http://prometheus-server.prometheus
+    prometheus:
+      install: true
     msteams:
       url: https://outlook.office.com/webhook/52d3bfab-3493-41a4-a7b6-4b83cfc6ce8f@67b7de17-01a8-410a-a645-3eacd61c1111/IncomingWebhook/12ef13d97f61492f9b01337bc93e1ff6/5efbb862-a962-4c1c-8024-4c2f1f32848c
