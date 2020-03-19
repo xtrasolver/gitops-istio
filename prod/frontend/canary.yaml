@@ -29,7 +29,7 @@ spec:
     - public-gateway.istio-system.svc.cluster.local
     # Istio virtual service host names (optional)
     hosts:
-    - "podinfo.192.168.14.241.xip.io"
+    - "podinfo.*.xip.io"
   analysis:
     # schedule interval (default 60s)
     interval: 15s
