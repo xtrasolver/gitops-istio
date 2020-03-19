@@ -10,4 +10,4 @@ spec:
     name: grafana
     version: 1.4.0
   values:
-    url: http://prometheus-operated.cattle-prometheus:9090
+    url: http://flagger-prometheus.istio-system:9090
