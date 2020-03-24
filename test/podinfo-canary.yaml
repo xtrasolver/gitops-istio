@@ -27,7 +27,7 @@ spec:
     - public-gateway.istio-system.svc.cluster.local
     # Istio virtual service host names (optional)
     hosts:
-    - podinfo.192.168.14.241.xip.io
+    - podinfo.192.168.14.231.xip.io
     # Istio traffic policy (optional)
     trafficPolicy:
       tls:
