@@ -5,6 +5,9 @@ metadata:
   namespace: test
   labels:
     app: flagger-loadtester
+  annotations:
+    fluxcd.io/automated: "true"
+    fluxcd.io/tag.loadtester: semver:~0.1
 spec:
   selector:
     matchLabels:
@@ -19,7 +22,7 @@ spec:
     spec:
       containers:
         - name: loadtester
-          image: xtrasolver/k6-podinfo:v0.0.1
+          image: xtrasolver/k6-podinfo:v0.1.0
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
