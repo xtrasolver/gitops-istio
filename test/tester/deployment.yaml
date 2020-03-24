@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: loadtester
-        image: xtrasolver/k6-podinfo:v0.1.6
+        image: xtrasolver/k6-podinfo:v0.1.7
         imagePullPolicy: IfNotPresent
         ports:
         - name: http
