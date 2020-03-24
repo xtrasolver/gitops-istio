@@ -78,6 +78,6 @@ spec:
           requests:
             cpu: 100m
             memory: 64Mi
-    volumes:
-      - name: data
-        emptyDir: {}
+      volumes:
+        - name: data
+          emptyDir: {}
