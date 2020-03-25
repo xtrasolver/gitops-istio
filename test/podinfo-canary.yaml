@@ -70,7 +70,7 @@ spec:
         timeout: 30s
         metadata:
           type: bash
-          cmd: "newman run pod-info.collection.json --env-var \"BaseUrl=http://podinfo-canary:9898\""
+          cmd: "newman run pod-info.collection.json --env-var \"BaseUrl=http://podinfo-canary:9898\"" --folder Basic
       - name: load-test
         url: http://flagger-loadtester.test/
         timeout: 3m
